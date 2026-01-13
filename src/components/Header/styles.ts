@@ -7,10 +7,12 @@ export const HeaderWrapper = styled(Box)(({ theme }) => ({
   justifyContent: 'center',
   alignItems: 'center',
   width: '100%',
+  marginTop: theme.spacing(2),
 
   [`& .${typographyClasses.root}`]: {
-    padding: theme.spacing(2),
+    padding: theme.spacing(1),
     color: theme.palette.text.primary,
+    fontSize: '6vmin',
   },
 
   ['& .MuiButtonBase-root']: {

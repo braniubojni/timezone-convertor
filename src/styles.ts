@@ -7,8 +7,9 @@ export const StyledBox = styled(Box)(({ theme }) => ({
   alignItems: 'center',
   justifyContent: 'center',
   gap: theme.spacing(3),
-  minWidth: 450,
+  minWidth: 320,
   width: '100%',
   height: '100vh',
+  overflow: 'auto',
   backgroundColor: theme.palette.background.default,
 }));

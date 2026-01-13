@@ -1,13 +1,12 @@
 import AddIcon from '@mui/icons-material/Add';
-import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
 import dayjs from 'dayjs';
 import { useEffect, useState, type FC } from 'react';
 import { LOCAL_STORAGE_KEYS } from '../../context/consts';
 import { useTimezone } from '../../context/hooks';
 import { TzDialog } from '../TzDialog';
 import { HeaderWrapper } from './styles';
-import Typography from '@mui/material/Typography';
 
 export const Header: FC = () => {
   const { dispatch } = useTimezone();

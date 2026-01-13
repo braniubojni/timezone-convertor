@@ -68,6 +68,7 @@ export const BootstrapInput = styled(InputBase)(({ theme }) => ({
       boxShadow: '0 0 0 0.2rem rgba(0,123,255,.25)',
     },
   },
+  colorScheme: theme.palette.mode,
   '&.time': {
     '& input': {
       padding: '10px 10px 10px 12px',

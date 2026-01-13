@@ -28,16 +28,13 @@ export const Header: FC = () => {
 
   return (
     <>
-      <Box>
+      <HeaderWrapper>
         <IconButton onClick={onOpen}>
           <AddIcon />
         </IconButton>
-      </Box>
-      <HeaderWrapper>
         <Typography variant="h4" component="h1">
           Current Time {currentTime}
         </Typography>
-        {/* <Box component="h3">Current Time {dayjs().tz().format('HH:mm')}</Box> */}
       </HeaderWrapper>
       <TzDialog open={isAddTz} onClose={onClose} />
     </>

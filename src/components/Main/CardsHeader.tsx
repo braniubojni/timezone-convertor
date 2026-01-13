@@ -9,7 +9,6 @@ export const CardsHeader: FC = () => {
   const [openDialog, setOpenDialog] = useState<boolean>(false);
   const onSubmit = () => {
     setOpenDialog(false);
-    // mutate();
   };
   const onClose = () => {
     setOpenDialog(false);
